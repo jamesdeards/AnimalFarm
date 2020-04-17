@@ -12,6 +12,15 @@ public abstract class Animal {
     private int price;
     private static final int maxAge = 11;
 
+    private int totalProduce = 0;
+    private int totalCollected = 0;
+
+
+    public abstract boolean produce();
+
+    public abstract boolean collect();
+
+
     public Animal() {
         super();
         this.age = (int) (Math.random() * maxAge);
@@ -27,7 +36,6 @@ public abstract class Animal {
     public Animal(int price) {
         this.price = price;
     }
-
 
     public String getName() {
         return name;
@@ -64,21 +72,17 @@ public abstract class Animal {
         return false;
     }
 
-    public Gender getGender() {
-        return gender;
-    }
+    public Gender getGender() { return gender; }
 
-    public int getPrice() {
-        return price;
-    }
+    public int getPrice() { return price; }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
+    public void setPrice(int price) { this.price = price; }
 
-    public int GetPrice() {
-        return this.price;
-    }
+    public int GetPrice() { return this.price; }
+
+    public int getTotalProduce() { return totalProduce; }
+
+    public int getTotalCollected() { return totalCollected; }
 
     @Override
     public String toString() {
@@ -91,9 +95,9 @@ public abstract class Animal {
                 '}';
     }
 
-    public abstract boolean produce();
 
-    public abstract int collect();
+
+
 
 }
 

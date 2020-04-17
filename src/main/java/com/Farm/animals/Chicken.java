@@ -9,7 +9,9 @@ public class Chicken extends Animal {
 
     //large female chickens lay more eggs per turn. male chickens lay no eggs.
     private int eggLayingRate;
-    private int totalEggs;
+    private int totalProduce;
+    private int totalCollected;
+
     private static final int smallEggRate = 1;
     private static final int mediumEggRate = 2;
     private static final int largeEggRate = 3;
@@ -20,44 +22,39 @@ public class Chicken extends Animal {
         this.eggLayingRate = 0;
         if (this.getGender() == Gender.MALE) {
             this.eggLayingRate = 0;
-        }
-        else if (this.getSize() == Size.SMALL) {
+        } else if (this.getSize() == Size.SMALL) {
             this.eggLayingRate = smallEggRate;
-        }
-        else if (this.getSize() == Size.MEDIUM) {
+        } else if (this.getSize() == Size.MEDIUM) {
             this.eggLayingRate = mediumEggRate;
-        }
-        else {
+        } else {
             this.eggLayingRate = largeEggRate;
         }
-    }
-
-
-
-    public int getEggLayingRate() {
-        return eggLayingRate;
-    }
-
-    public int getTotalEggs() {
-        return totalEggs;
     }
 
 
     //chicken lays eggs
     public boolean produce() {
         if (this.getGender() == Gender.FEMALE) {
-            this.totalEggs += this.eggLayingRate;
-            return true;
+            this.totalProduce += this.eggLayingRate;
         }
-        return false;
+        return true;
     }
 
     //collect eggs from chicken
-    public int collect() {
-        int eggsCollected = this.totalEggs;
-        this.totalEggs = 0;
-        return eggsCollected;
+    public boolean collect() {
+        this.totalCollected = this.totalProduce;
+        this.totalProduce = 0;
+        return true;
     }
+
+    public int getEggLayingRate() { return eggLayingRate;
+    }
+    public int getTotalProduce() {
+        return totalProduce;
+    }
+
+    public int getTotalCollected() { return totalCollected; }
+
 
 
     @Override

@@ -8,7 +8,11 @@ public class Sheep extends Animal {
     private final Colour colour;
     private static String phrase = "Baa!";
 
-    private int woolLength;
+
+    private int totalProduce;
+    private int totalCollected;
+
+
     private int woolIncrease;
 
     private static final int smallWoolIncrease = 2;
@@ -25,17 +29,15 @@ public class Sheep extends Animal {
         if (size == Size.SMALL) {
             this.setPrice(smallPrice);
             this.woolIncrease = smallWoolIncrease;
-        }
-        else if (size == Size.MEDIUM) {
+        } else if (size == Size.MEDIUM) {
             this.setPrice(mediumPrice);
             this.woolIncrease = mediumWoolIncrease;
-        }
-        else {
+        } else {
             this.setPrice(largePrice);
             this.woolIncrease = largeWoolIncrease;
         }
-        this.colour = Colour.values()[(int) (Math.random()*Colour.values().length)];
-        this.woolLength = 0;
+        this.colour = Colour.values()[(int) (Math.random() * Colour.values().length)];
+        this.totalProduce = 0;
     }
 
     public Colour getColour() {
@@ -58,16 +60,25 @@ public class Sheep extends Animal {
                 '}';
     }
 
+
     //sheep grows wool
     public boolean produce() {
-        this.woolLength += this.woolIncrease;
+        this.totalProduce += this.woolIncrease;
         return true;
     }
 
     //collect wool from the sheep
-    public int collect() {
-        int amount = this.woolLength;
-        this.woolLength = 0;
-        return amount;
+    public boolean collect() {
+        totalCollected = this.totalProduce;
+        this.totalProduce = 0;
+        return true;
     }
+
+
+    public int getTotalProduce() {
+        return totalProduce;
+    }
+
+    public int getTotalCollected() { return totalCollected; }
 }
+
