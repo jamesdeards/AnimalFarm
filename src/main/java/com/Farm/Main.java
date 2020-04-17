@@ -28,7 +28,7 @@ public class Main {
         Daisy.produce();
         System.out.println(Daisy.getTotalProduce());
 
-        System.out.println("After waiting too long milk production ceases");
+        System.out.println("After waiting too long, milk production ceases");
 
         Daisy.collect();
         System.out.println("Collecting milk. Total collected should be equal to milk capacity");

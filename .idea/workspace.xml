@@ -4,16 +4,6 @@
     <list default="true" id="7a2cf5d4-d8f8-41ba-9545-0343bee48a72" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Cow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Cow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Sheep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/animals/Sheep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Chicken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Chicken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Cow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Cow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/NameGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/NameGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/animals/Sheep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/animals/Sheep.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
