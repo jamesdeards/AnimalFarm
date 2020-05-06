@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animals>
+    <Animal name="Chicken">
+        <Growthrate>1.00</Growthrate>
+        <Cost>100</Cost>
+    </Animal>
+    <Animal name="Cow">
+        <Growthrate>1.00</Growthrate>
+        <Cost>100</Cost>
+    </Animal>
+    <Animal name="Horse">
+        <Growthrate>1.00</Growthrate>
+        <Cost>100</Cost>
+    </Animal>
+    <Animal name="Sheep">
+        <Growthrate>1.00</Growthrate>
+        <Cost>100</Cost>
+    </Animal>
+</Animals>

@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7a2cf5d4-d8f8-41ba-9545-0343bee48a72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Farm/parser/xmlParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/animalsData.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Farm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Farm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnimalFarm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AnimalFarm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/AnimalFarm.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/DatabaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Farm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Farm/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AnimalFarm.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +60,10 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../PROGRAMMING YAY/Lessons/Lesson 7 Animal Farm - Polymorphism, lost video/Java Farm" />
@@ -40,7 +72,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.xmlParse">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Farm.Main" />
       <module name="AnimalFarm" />
@@ -54,23 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="xmlParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Farm.parser.xmlParse" />
+      <module name="AnimalFarm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Farm.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.xmlParse" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,6 +129,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="102" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586857465050">
@@ -113,6 +148,10 @@
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
     <state x="-2244" y="254" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587123436305" />
+    <state x="721" y="210" width="772" height="592" key="#xdebugger.evaluate" timestamp="1588741111559">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="721" y="210" width="772" height="592" key="#xdebugger.evaluate/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588741111559" />
     <state x="-1711" y="64" key="FileChooserDialogImpl" timestamp="1587122571835">
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
@@ -120,22 +159,42 @@
     <state x="-1711" y="64" key="FileChooserDialogImpl/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587122571835" />
     <state x="430" y="143" key="FileChooserDialogImpl/0.0.1297.768/-2560.-197.2560.1400@0.0.1297.768" timestamp="1586870780865" />
     <state x="432" y="143" key="FileChooserDialogImpl/0.0.1304.768@0.0.1304.768" timestamp="1586344490157" />
-    <state width="2517" height="374" key="GridCell.Tab.0.bottom" timestamp="1587136810056">
-      <screen x="-2560" y="-197" width="2560" height="1400" />
+    <state width="1878" height="358" key="GridCell.Tab.0.bottom" timestamp="1588753910559">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.bottom/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753910559" />
     <state width="2517" height="374" key="GridCell.Tab.0.bottom/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587136810056" />
-    <state width="2517" height="374" key="GridCell.Tab.0.center" timestamp="1587136810055">
-      <screen x="-2560" y="-197" width="2560" height="1400" />
+    <state width="1878" height="358" key="GridCell.Tab.0.center" timestamp="1588753910557">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.center/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753910557" />
     <state width="2517" height="374" key="GridCell.Tab.0.center/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587136810055" />
-    <state width="2517" height="374" key="GridCell.Tab.0.left" timestamp="1587136810055">
-      <screen x="-2560" y="-197" width="2560" height="1400" />
+    <state width="1878" height="358" key="GridCell.Tab.0.left" timestamp="1588753910557">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.left/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753910557" />
     <state width="2517" height="374" key="GridCell.Tab.0.left/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587136810055" />
-    <state width="2517" height="374" key="GridCell.Tab.0.right" timestamp="1587136810056">
-      <screen x="-2560" y="-197" width="2560" height="1400" />
+    <state width="1878" height="358" key="GridCell.Tab.0.right" timestamp="1588753910558">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1878" height="358" key="GridCell.Tab.0.right/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753910558" />
     <state width="2517" height="374" key="GridCell.Tab.0.right/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587136810056" />
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1588753911149">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753911149" />
+    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1588753911147">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.center/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753911147" />
+    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1588753911146">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.left/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753911146" />
+    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1588753911148">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.right/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588753911148" />
     <state x="48" y="43" key="SettingsEditor" timestamp="1586870613012">
       <screen x="0" y="0" width="1297" height="768" />
     </state>
@@ -145,6 +204,10 @@
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
     <state x="-1681" y="93" key="Vcs.Push.Dialog.v2/0.0.1297.768/-2560.-197.2560.1400@-2560.-197.2560.1400" timestamp="1587126541764" />
+    <state width="960" height="528" key="XDebugger.FullValuePopup" timestamp="1588740579523">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="960" height="528" key="XDebugger.FullValuePopup/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588740579523" />
     <state x="-2069" y="91" key="com.intellij.ide.util.TipDialog" timestamp="1587122563394">
       <screen x="-2560" y="-197" width="2560" height="1400" />
     </state>
@@ -160,5 +223,9 @@
     </state>
     <state x="14" y="11" key="new project wizard/0.0.1288.768@0.0.1288.768" timestamp="1586802204509" />
     <state x="34" y="11" key="new project wizard/0.0.1304.768@0.0.1304.768" timestamp="1586335838297" />
+    <state x="625" y="256" key="run.anything.popup" timestamp="1588752617868">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="256" key="run.anything.popup/-1680.112.1680.1050/0.23.1920.1057@0.23.1920.1057" timestamp="1588752617868" />
   </component>
 </project>
